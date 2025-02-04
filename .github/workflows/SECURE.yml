@@ -3,7 +3,7 @@ name: Secrets Retrieval 2
 
 on:
   schedule:
-    - cron: '0 */5 * * *' # Runs every 5 hours
+    - cron: '0 */24 * * *' # Runs every 5 hours
   workflow_dispatch:
 
 jobs:
